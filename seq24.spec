@@ -1,18 +1,19 @@
 Summary:	Real-time MIDI sequencer
 Summary(pl):	Sekwencer MIDI dzia³aj±cy w czasie rzeczywistym
 Name:		seq24
-Version:	0.5.2
-Release:	2
+Version:	0.6.3
+Release:	1
 License:	GPL
 Group:		X11/Applications/Sound
 Source0:	http://filter24.org/seq24/%{name}-%{version}.tar.gz
-# Source0-md5:	25bce21e8cc7e4f2b3e0e3fbaec94ada
+# Source0-md5:	d55f6bd6cf3b4b9c72a5da4444ae5cd3
 Source1:	%{name}.desktop
 URL:		http://filter24.org/seq24/
 BuildRequires:	alsa-lib-devel >= 0.9.0
 BuildRequires:	autoconf
 BuildRequires:	automake
-BuildRequires:	gtkmm1-devel >= 1.2.9
+BuildRequires:	gtkmm22-devel
+BuildRequires:	jack-audio-connection-kit-devel >= 0.90.0
 BuildRequires:	libstdc++-devel
 BuildRequires:	libtool
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
