@@ -16,6 +16,7 @@ BuildRequires:	gtkmm22-devel
 BuildRequires:	jack-audio-connection-kit-devel >= 0.90.0
 BuildRequires:	libstdc++-devel
 BuildRequires:	libtool
+Requires:	gtkmm22
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
