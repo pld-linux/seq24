@@ -6,5 +6,5 @@ Comment[pl]=Sekwencer MIDI działający w czasie rzeczywistym
 Exec=seq24
 Terminal=false
 Type=Application
-Categories=AudioVideo;
+Categories=AudioVideo;Midi;
 # vi: encoding=utf-8
