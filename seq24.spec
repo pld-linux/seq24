@@ -1,5 +1,5 @@
 Summary:	Real-time MIDI sequencer
-Summary(pl):	Sekwencer MIDI dzia³aj±cy w czasie rzeczywistym
+Summary(pl.UTF-8):   Sekwencer MIDI dziaÅ‚ajÄ…cy w czasie rzeczywistym
 Name:		seq24
 Version:	0.8.6
 Release:	1
@@ -23,10 +23,10 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Seq24 is a real-time midi sequencer. It was created to provide a very
 simple interface for editing and playing MIDI 'loops'.
 
-%description -l pl
-Seq24 jest sekwencerem dzia³aj±cym w czasie rzeczywistym. Zosta³
-stworzony z my¶l± o prostocie interfejsu do edycji i odtwarzania
-'pêtli' MIDI.
+%description -l pl.UTF-8
+Seq24 jest sekwencerem dziaÅ‚ajÄ…cym w czasie rzeczywistym. ZostaÅ‚
+stworzony z myÅ›lÄ… o prostocie interfejsu do edycji i odtwarzania
+'pÄ™tli' MIDI.
 
 %prep
 %setup -q
