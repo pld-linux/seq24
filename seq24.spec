@@ -1,5 +1,5 @@
 Summary:	Real-time MIDI sequencer
-Summary(pl.UTF-8):   Sekwencer MIDI działający w czasie rzeczywistym
+Summary(pl.UTF-8):	Sekwencer MIDI działający w czasie rzeczywistym
 Name:		seq24
 Version:	0.8.6
 Release:	1
