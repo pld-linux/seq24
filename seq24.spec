@@ -8,6 +8,7 @@ Group:		X11/Applications/Sound
 Source0:	http://filter24.org/seq24/%{name}-%{version}.tar.gz
 # Source0-md5:	b2c39dad73f803727c39c2e2e443ebdb
 Source1:	%{name}.desktop
+Patch0:		sigc22-fix.patch
 URL:		http://filter24.org/seq24/
 BuildRequires:	alsa-lib-devel >= 0.9.0
 BuildRequires:	autoconf
@@ -30,6 +31,7 @@ stworzony z myślą o prostocie interfejsu do edycji i odtwarzania
 
 %prep
 %setup -q
+%patch0 -p1
 
 %build
 %{__libtoolize}
