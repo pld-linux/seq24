@@ -32,7 +32,7 @@ stworzony z myślą o prostocie interfejsu do edycji i odtwarzania
 
 %prep
 %setup -q
-%patch0 -p1
+%patch -P0 -p1
 
 %build
 %{__libtoolize}
